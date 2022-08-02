@@ -1,0 +1,16 @@
+@media screen and (max-width: 768px) {
+    .destaques__principal {
+        grid-column: 1/5;
+        grid-row: 1/3;
+    }
+
+    .destaques__secundario:not(:nth-child(1)) {
+        display: none;
+        grid-column: none;
+        grid-row: none;
+    }
+    
+    .destaques__categorias {
+        grid-column: 1 / 5;
+    }
+}
